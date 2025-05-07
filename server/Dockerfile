@@ -13,9 +13,5 @@ RUN npm install
 # Copy other file to my current directory
 COPY . .
 
-
-# Open the port for express server
-EXPOSE 5000
-
 # Run express rum in foreground
 CMD ["npm", "start"]
